@@ -82,8 +82,8 @@ def main():
 
     Nx_plot = 128
 
-    qubit_range = range(5, 11)      # 5 to 11 qubits
-    layer_range = range(1, 301)     # 1 to 300 layers
+    qubit_range = range(5, 14)      # 5 to 11 qubits
+    layer_range = range(1, 501)     # 1 to 300 layers
     threshold = 0.999
 
     best_layers = []

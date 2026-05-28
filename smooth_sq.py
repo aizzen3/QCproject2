@@ -20,7 +20,7 @@ from qiskit.quantum_info import state_fidelity
 # ============================================================
 
 def spatial_grid(L, Nx):
-    return np.linspace(-L / 2, L / 2, Nx, endpoint=False)
+    return np.linspace(-L / 2, L / 2, Nx, endpoint=True)
 
 
 def thickness_profile_sharp(x, Lambda, duty, d0, h):
@@ -69,21 +69,21 @@ def main():
     # Parameters
     # ----------------------------
 
-    T = 10e-6
+    T = 16e-6
 
     lam = 630e-9
     n_refr = 1.0
 
     Lambda = 2e-6
     duty = 0.50
-    d0 = 100e-9
+    d0 = 0
     h = 200e-9
     smoothness_k = 20
 
     Nx_plot = 128
 
-    qubit_range = range(5, 14)      # 5 to 11 qubits
-    layer_range = range(1, 501)     # 1 to 300 layers
+    qubit_range = range(5, 10)      # 5 to 11 qubits
+    layer_range = range(1, 301)     # 1 to 300 layers
     threshold = 0.999
 
     best_layers = []

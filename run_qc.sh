@@ -3,7 +3,7 @@
 #SBATCH --job-name=qc_run
 #SBATCH --output=qc_%j.log    # log file (%j = job id)
 #SBATCH --time=1-00:00:00       # max runtime
-#SBATCH --mem=1T            # request RAM
+#SBATCH --mem=512G            # request RAM
 #SBATCH --cpus-per-task=8     # number of CPU cores
 
 set -euo pipefail
@@ -19,4 +19,3 @@ echo "Running on $(hostname)"
 echo "CPUs: $SLURM_CPUS_PER_TASK  RAM: $SLURM_MEM_PER_NODE"
 
 python smooth_sq.py
-python gaussian.py

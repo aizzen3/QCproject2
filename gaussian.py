@@ -70,7 +70,8 @@ def main():
     # CREATE RESULTS DIRECTORY
     # ========================================================
 
-    os.makedirs("results_gaussian", exist_ok=True)
+    RESULTS_DIR = "results_non_shifted_gaussian"
+    os.makedirs(RESULTS_DIR, exist_ok=True)
 
     sim = AerSimulator(method="statevector")
 
@@ -87,7 +88,7 @@ def main():
     h = 200e-9
 
     sigma = 1e-6
-    x0 = 2e-6
+    x0 = 0
 
     Nx_plot = 256
 
@@ -150,7 +151,7 @@ def main():
     plt.tight_layout()
 
     plt.savefig(
-        "results_gaussian/gaussian_profile.png",
+        "results_non_shifted_gaussian/gaussian_profile.png",
         dpi=300,
         bbox_inches="tight"
     )
@@ -254,7 +255,7 @@ def main():
     ])
 
     np.savetxt(
-        "results_gaussian/mps_gaussian_results.csv",
+        "results_non_shifted_gaussian/mps_gaussian_results.csv",
         results,
         delimiter=",",
         header="qubits,best_layer,fidelity",
@@ -263,7 +264,7 @@ def main():
 
     print(
         "\nSaved results to "
-        "results_gaussian/mps_gaussian_results.csv"
+        "results_non_shifted_gaussian/mps_gaussian_results.csv"
     )
 
     # ========================================================
@@ -289,7 +290,7 @@ def main():
     # ========================================================
 
     with open(
-        "results_gaussian/summary.txt",
+        "results_non_shifted_gaussian/summary.txt",
         "w"
     ) as file:
 
@@ -496,7 +497,7 @@ def main():
         plt.tight_layout()
 
         plt.savefig(
-            "results_gaussian/scaling_fit_gaussian.png",
+            "results_non_shifted_gaussian/scaling_fit_gaussian.png",
             dpi=300,
             bbox_inches="tight"
         )
@@ -622,7 +623,7 @@ def main():
         plt.tight_layout()
 
         plt.savefig(
-            f"results_gaussian/"
+            f"results_non_shifted_gaussian/"
             f"amplitude_{n_qubits}q_gaussian.png",
             dpi=300,
             bbox_inches="tight"
@@ -646,7 +647,7 @@ if __name__ == "__main__":
     total_seconds = end_time - start_time
 
     with open(
-        "results_gaussian/runtime.txt",
+        "results_non_shifted_gaussian/runtime.txt",
         "w"
     ) as file:
 

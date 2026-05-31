@@ -1,0 +1,12 @@
+Gaussian MPS Initialization Results
+===================================
+
+Threshold fidelity = 0.999
+
+Qubits = 5, Layer = 1, Fidelity = 0.9995511833985509
+Qubits = 6, Layer = 28, Fidelity = 0.9994915206851385
+Qubits = 7, Layer = 56, Fidelity = 0.9993833442783578
+Qubits = 8, Layer = 4, Fidelity = 0.9990144778740009
+Qubits = 9, Layer = 204, Fidelity = 0.9991029531767335
+Qubits = 10, Layer = nan, Fidelity = nan
+Qubits = 11, Layer = nan, Fidelity = nan

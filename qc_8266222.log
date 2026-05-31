@@ -1,0 +1,131 @@
+Running on fat05.cluster
+CPUs: 8  RAM: 524288
+/home/ri52yof/QCproject2/grathing.py:289: UserWarning: Tight layout not applied. The bottom and top margins cannot be made large enough to accommodate all Axes decorations.
+  plt.tight_layout()
+
+Running for 5 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Running for 6 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Running for 7 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Running for 8 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Running for 9 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Running for 10 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Running for 11 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Running for 12 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Running for 13 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Running for 14 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Running for 15 qubits
+  Layers = 1, Fidelity = 1.000000
+  Threshold reached at layer 1, Fidelity = 1.000000
+
+Saved results to results_sharp_symmetric/mps_sharp_symmetric_results.csv
+
+Summary
+Qubits = 5, Layer = 1, Fidelity = 1.0
+Qubits = 6, Layer = 1, Fidelity = 1.0000000000000004
+Qubits = 7, Layer = 1, Fidelity = 1.0000000000000009
+Qubits = 8, Layer = 1, Fidelity = 0.9999999999999982
+Qubits = 9, Layer = 1, Fidelity = 0.9999999999999987
+Qubits = 10, Layer = 1, Fidelity = 1.0000000000000013
+Qubits = 11, Layer = 1, Fidelity = 0.9999999999999993
+Qubits = 12, Layer = 1, Fidelity = 1.0000000000000018
+Qubits = 13, Layer = 1, Fidelity = 0.9999999999999902
+Qubits = 14, Layer = 1, Fidelity = 0.9999999999999989
+Qubits = 15, Layer = 1, Fidelity = 0.9999999999999996
+
+Used for fitting:
+Qubits = 5, Layers = 1, Fidelity = 1.000000
+Qubits = 6, Layers = 1, Fidelity = 1.000000
+Qubits = 7, Layers = 1, Fidelity = 1.000000
+Qubits = 8, Layers = 1, Fidelity = 1.000000
+Qubits = 9, Layers = 1, Fidelity = 1.000000
+Qubits = 10, Layers = 1, Fidelity = 1.000000
+Qubits = 11, Layers = 1, Fidelity = 1.000000
+Qubits = 12, Layers = 1, Fidelity = 1.000000
+Qubits = 13, Layers = 1, Fidelity = 1.000000
+Qubits = 14, Layers = 1, Fidelity = 1.000000
+Qubits = 15, Layers = 1, Fidelity = 1.000000
+
+Fit quality:
+Linear R² = 0.0
+Quadratic R² = 0.0
+Exponential R² = 0.0
+Traceback (most recent call last):
+  File "/home/ri52yof/QCproject2/grathing.py", line 397, in <module>
+    main()
+    ~~~~^^
+  File "/home/ri52yof/QCproject2/grathing.py", line 290, in main
+    plt.savefig(
+    ~~~~~~~~~~~^
+        f"{save_dir}/scaling_fit_sharp_symmetric.png",
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        dpi=300,
+        ^^^^^^^^
+        bbox_inches="tight"
+        ^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "/home/ri52yof/QCproject2/.venv/lib/python3.13/site-packages/matplotlib/pyplot.py", line 1251, in savefig
+    res = fig.savefig(*args, **kwargs)  # type: ignore[func-returns-value]
+  File "/home/ri52yof/QCproject2/.venv/lib/python3.13/site-packages/matplotlib/figure.py", line 3490, in savefig
+    self.canvas.print_figure(fname, **kwargs)
+    ~~~~~~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^
+  File "/home/ri52yof/QCproject2/.venv/lib/python3.13/site-packages/matplotlib/backend_bases.py", line 2184, in print_figure
+    result = print_method(
+        filename,
+    ...<3 lines>...
+        bbox_inches_restore=_bbox_inches_restore,
+        **kwargs)
+  File "/home/ri52yof/QCproject2/.venv/lib/python3.13/site-packages/matplotlib/backend_bases.py", line 2040, in <lambda>
+    print_method = functools.wraps(meth)(lambda *args, **kwargs: meth(
+                                                                 ~~~~^
+        *args, **{k: v for k, v in kwargs.items() if k not in skip}))
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ri52yof/QCproject2/.venv/lib/python3.13/site-packages/matplotlib/backends/backend_agg.py", line 481, in print_png
+    self._print_pil(filename_or_obj, "png", pil_kwargs, metadata)
+    ~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ri52yof/QCproject2/.venv/lib/python3.13/site-packages/matplotlib/backends/backend_agg.py", line 429, in _print_pil
+    FigureCanvasAgg.draw(self)
+    ~~~~~~~~~~~~~~~~~~~~^^^^^^
+  File "/home/ri52yof/QCproject2/.venv/lib/python3.13/site-packages/matplotlib/backends/backend_agg.py", line 377, in draw
+    self.renderer = self.get_renderer()
+                    ~~~~~~~~~~~~~~~~~^^
+  File "/home/ri52yof/QCproject2/.venv/lib/python3.13/site-packages/matplotlib/backends/backend_agg.py", line 392, in get_renderer
+    self.renderer = RendererAgg(w, h, self.figure.dpi)
+                    ~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^
+  File "/home/ri52yof/QCproject2/.venv/lib/python3.13/site-packages/matplotlib/backends/backend_agg.py", line 69, in __init__
+    self._renderer = _RendererAgg(int(width), int(height), dpi)
+                     ~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+TypeError: __init__(): incompatible constructor arguments. The following argument types are supported:
+    1. matplotlib.backends._backend_agg.RendererAgg(width: int, height: int, dpi: float)
+
+Invoked with: 2069, 165879451897, 300

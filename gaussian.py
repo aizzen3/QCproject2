@@ -22,8 +22,9 @@ from qiskit.quantum_info import state_fidelity
 # ============================================================
 
 def spatial_grid(L, Nx):
-
-    return np.linspace(-L / 2, L / 2, Nx, endpoint=False)
+    dx = L / Nx
+    j = np.arange(Nx)
+    return (j - (Nx - 1) / 2) * dx
 
 
 def gaussian_thickness_profile(
@@ -79,7 +80,7 @@ def main():
     # PARAMETERS
     # ========================================================
 
-    T = 10e-6
+    T = 16e-6
 
     lam = 630e-9
     n_refr = 1.0
@@ -92,7 +93,7 @@ def main():
 
     Nx_plot = 256
 
-    qubit_range = range(5, 12)
+    qubit_range = range(5, 10)
     layer_range = range(1, 301)
 
     threshold = 0.999

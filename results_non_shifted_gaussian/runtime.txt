@@ -1,2 +1,2 @@
-Total runtime: 43321.88 seconds
-Total runtime: 722.03 minutes
+Total runtime: 1358.15 seconds
+Total runtime: 22.64 minutes

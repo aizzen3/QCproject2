@@ -18,4 +18,4 @@ export MKL_NUM_THREADS=$SLURM_CPUS_PER_TASK
 echo "Running on $(hostname)"
 echo "CPUs: $SLURM_CPUS_PER_TASK  RAM: $SLURM_MEM_PER_NODE"
 
-python grathing.py
+python gaussian.py

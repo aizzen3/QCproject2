@@ -16,7 +16,7 @@ from qiskit_mps_initializer.datatypes import QuantumState
 # Save folder
 # ==================================================
 
-save_dir = "sin_quimb_schmidt_target_chi_9q"
+save_dir = "squarewave_quimb_schmidt_target_chi_9q"
 os.makedirs(save_dir, exist_ok=True)
 
 print("Plots will be saved in:", os.path.abspath(save_dir))
@@ -38,14 +38,10 @@ T = 16e-6          # spatial window
 lam = 630e-9       # wavelength
 n_refr = 1.0
 
-h = 1         # signal height
-
-sinc_scale = 4e6
-
-d0 = 0.0
-
-
-x0 = 0.0
+Lambda = 2e-6      # square wave period
+duty = 0.50        # duty cycle
+d0 = 0.0           # baseline thickness
+h = 200e-9         # pulse height
 
 
 # ==================================================
@@ -71,56 +67,29 @@ from qiskit.quantum_info import state_fidelity
 
 
 # -----------------------------
-# Spatial grid: fully symmetric
+# Spatial grid: linspace, symmetric
 # -----------------------------
 def spatial_grid(L, Nx):
-   
 
-    dx = L / Nx
-    j = np.arange(Nx)
-
-    return (j - (Nx - 1) / 2) * dx
+    return np.linspace(-L / 2, L / 2, Nx, endpoint=True)
 
 
 # -----------------------------
-# sinc thickness profile: sin(x)/x
+# Square wave thickness profile: sharp symmetric pulses
 # -----------------------------
-def thickness_profile_sinc(x, h, scale=1.0, x0=0.0):
+def thickness_profile_sharp_symmetric(x, Lambda, duty, d0, h):
 
+    phase = (x % Lambda) / Lambda
 
-    z = scale * (x - x0)
+    center = duty / 2
+    u = phase - center
+    u = (u + 0.5) % 1.0 - 0.5
 
-    sinc = np.ones_like(z)
-    nonzero = np.abs(z) > 1e-14
+    halfwidth = duty / 2
 
-    sinc[nonzero] = np.sin(z[nonzero]) / z[nonzero]
+    pulse = (np.abs(u) < halfwidth).astype(float)
 
-    return h * sinc
-
-
-# -----------------------------
-# Positive sinc thickness profile
-# -----------------------------
-def thickness_profile_positive_sinc(x, h, scale=1.0, x0=0.0):
-
-
-    z = scale * (x - x0)
-
-    sinc = np.ones_like(z)
-    nonzero = np.abs(z) > 1e-14
-
-    sinc[nonzero] = np.sin(z[nonzero]) / z[nonzero]
-
-    # Shift upward so minimum becomes zero
-    sinc_positive = sinc - np.min(sinc)
-
-    # Normalize between 0 and 1
-    max_val = np.max(sinc_positive)
-
-    if max_val > 0:
-        sinc_positive = sinc_positive / max_val
-
-    return h * sinc_positive
+    return d0 + h * pulse
 
 
 # -----------------------------
@@ -145,8 +114,8 @@ def phi_from_f(f):
 
     if np.any(f < 0):
         raise ValueError(
-            "f contains negative values. Use thickness_profile_positive_sinc "
-            "instead of raw thickness_profile_sinc."
+            "f contains negative values. Use a non-negative thickness "
+            "profile (e.g. thickness_profile_sharp_symmetric with d0 >= 0)."
         )
 
     phi = np.sqrt(f / alpha)
@@ -183,13 +152,8 @@ def quimb_bond_report(qmps):
 
 
 def quimb_schmidt_values(qmps, cut, cutoff=1e-16):
-    
-   
-    
-
 
     qmps = qmps.copy()
-    
 
     # Quimb returns the Schmidt values across the bond.
     s = qmps.schmidt_values(cut)
@@ -217,11 +181,17 @@ def pad_to_length(arr, length):
 # Build target psi
 
 
-print("\nBuilding Gaussian target state")
+print("\nBuilding square-wave target state")
 
 x = spatial_grid(T, Nx)
 
-d = thickness_profile_positive_sinc(x=x, h=h, scale=sinc_scale, x0=0.0)
+d = thickness_profile_sharp_symmetric(
+    x=x,
+    Lambda=Lambda,
+    duty=duty,
+    d0=d0,
+    h=h,
+)
 
 f = phase_signal(
     d=d,
@@ -256,6 +226,7 @@ plt.figure(figsize=(7, 5))
 plt.plot(
     x * 1e6,
     f,
+    drawstyle="steps-mid",
     marker="o",
     markersize=3,
     linewidth=1,
@@ -263,10 +234,10 @@ plt.plot(
 
 plt.xlabel("x (µm)")
 plt.ylabel("f(x)")
-plt.title(f"Gaussian phase signal, {n_qubits} qubits")
+plt.title(f"Square wave phase signal, {n_qubits} qubits")
 plt.grid(True)
 
-save_and_show(f"gaussian_signal_{n_qubits}_qubits.png")
+save_and_show(f"squarewave_signal_{n_qubits}_qubits.png")
 
 
 # ==================================================

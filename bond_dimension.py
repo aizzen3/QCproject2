@@ -30,10 +30,10 @@ n_qubits = 8
 Nx = 2 ** n_qubits
 
 # Run only 10 layers
-layer_list = range(1, 11)
+layer_list = range(0, 11)
 
 # Plot statevector only for layers 1 to 7
-statevector_layers_to_plot = range(1, 8)
+statevector_layers_to_plot = range(0, 8)
 
 quimb_cutoff = 1e-3
 

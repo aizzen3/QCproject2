@@ -19,4 +19,3 @@ echo "Running on $(hostname)"
 echo "CPUs: $SLURM_CPUS_PER_TASK  RAM: $SLURM_MEM_PER_NODE"
 
 python sin_signal_coeff.py
-python shcmidt_coeff.py

@@ -1,0 +1,447 @@
+Running on fat01.cluster
+CPUs: 8  RAM: 524288
+Plots will be saved in: /home/ri52yof/QCproject2/squarewave_quimb_schmidt_target_chi_9q
+
+Building square-wave target state
+alpha: 508.63881058120444
+n_qubits: 9
+Nx: 512
+norm psi: 0.9999999999999989
+min |psi|: 0.0
+max |psi|: 0.0626224291085149
+Saved: squarewave_quimb_schmidt_target_chi_9q/squarewave_signal_9_qubits.png
+
+Target psi Quimb MPS
+Bond profile: [2, 2, 2, 2, 2, 2, 2, 2]
+Max bond dimension: 2
+
+Target Schmidt coefficients from Quimb
+
+Cut: 1
+Target Schmidt values: [0.99804308 0.00195692]
+Nonzero count: 2
+
+Cut: 2
+Target Schmidt values: [0.99708493 0.00291507]
+Nonzero count: 2
+
+Cut: 3
+Target Schmidt values: [0.99665161 0.00334839]
+Nonzero count: 2
+
+Cut: 4
+Target Schmidt values: [0.99665161 0.00334839]
+Nonzero count: 2
+
+Cut: 5
+Target Schmidt values: [0.99652774 0.00347226]
+Nonzero count: 2
+
+Cut: 6
+Target Schmidt values: [0.99665161 0.00334839]
+Nonzero count: 2
+
+Cut: 7
+Target Schmidt values: [0.99708493 0.00291507]
+Nonzero count: 2
+
+Cut: 8
+Target Schmidt values: [0.99804308 0.00195692]
+Nonzero count: 2
+
+======================================================================
+number_of_layers: 0
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 1
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 2
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 3
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 4
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 5
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 6
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 7
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 8
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 9
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 10
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 11
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 12
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 13
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 14
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 15
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 16
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 17
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 18
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 19
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+======================================================================
+number_of_layers: 20
+======================================================================
+Fidelity chi with |000...0>: 1.0
+Chi bond profile: [1, 1, 1, 1, 1, 1, 1, 1]
+Chi max bond dimension: 1
+Circuit depth: 9
+Circuit size: 9
+Cut 1: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 2: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 3: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 4: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 5: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 6: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 7: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+Cut 8: Schmidt count = 1 | largest = 1.0 | smallest nonzero = 1.0
+
+Saved summary CSV: squarewave_quimb_schmidt_target_chi_9q/summary_layers.csv
+Saved: squarewave_quimb_schmidt_target_chi_9q/chi_fidelity_zero_vs_layers_9_qubits.png
+Saved: squarewave_quimb_schmidt_target_chi_9q/chi_max_bond_vs_layers_9_qubits.png
+
+Plotting Schmidt coefficients for cut: 1
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_cut_1_9_qubits.csv
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_coefficients_cut_1_9_qubits.png
+
+Plotting Schmidt coefficients for cut: 2
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_cut_2_9_qubits.csv
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_coefficients_cut_2_9_qubits.png
+
+Plotting Schmidt coefficients for cut: 3
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_cut_3_9_qubits.csv
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_coefficients_cut_3_9_qubits.png
+
+Plotting Schmidt coefficients for cut: 4
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_cut_4_9_qubits.csv
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_coefficients_cut_4_9_qubits.png
+
+Plotting Schmidt coefficients for cut: 5
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_cut_5_9_qubits.csv
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_coefficients_cut_5_9_qubits.png
+
+Plotting Schmidt coefficients for cut: 6
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_cut_6_9_qubits.csv
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_coefficients_cut_6_9_qubits.png
+
+Plotting Schmidt coefficients for cut: 7
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_cut_7_9_qubits.csv
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_coefficients_cut_7_9_qubits.png
+
+Plotting Schmidt coefficients for cut: 8
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_cut_8_9_qubits.csv
+Saved: squarewave_quimb_schmidt_target_chi_9q/quimb_schmidt_coefficients_cut_8_9_qubits.png
+
+Done.
+All plots saved in: /home/ri52yof/QCproject2/squarewave_quimb_schmidt_target_chi_9q
+Summary CSV saved as: squarewave_quimb_schmidt_target_chi_9q/summary_layers.csv

@@ -1,0 +1,130 @@
+Running on fat01.cluster
+CPUs: 8  RAM: 524288
+Plots will be saved in: /home/ri52yof/QCproject2/mps_dagger_chi_quimb_results_10layers
+
+Building Gaussian target state
+alpha: 127.99675641225457
+n_qubits: 8
+Nx: 256
+norm psi: 1.0
+min |psi|: 0.0002409875815236627
+max |psi|: 0.12483465781506499
+
+Original psi MPS bond dimensions
+Bond profile: [2, 3, 2, 2, 2, 1, 1]
+Max bond dimension: 3
+
+======================================================================
+number_of_layers: 0
+======================================================================
+Bond profile of chi: [1, 1, 1, 1, 1, 1, 1]
+Max bond dimension of chi: 1
+Fidelity chi with |000...0>: 0.9981783705950578
+Circuit depth: 8
+Circuit size: 8
+
+======================================================================
+number_of_layers: 1
+======================================================================
+Bond profile of chi: [1, 1, 1, 1, 1, 1, 1]
+Max bond dimension of chi: 1
+Fidelity chi with |000...0>: 0.9977474534073817
+Circuit depth: 10
+Circuit size: 16
+
+======================================================================
+number_of_layers: 2
+======================================================================
+Bond profile of chi: [1, 1, 1, 1, 1, 1, 1]
+Max bond dimension of chi: 1
+Fidelity chi with |000...0>: 0.9971466207814792
+Circuit depth: 12
+Circuit size: 24
+
+======================================================================
+number_of_layers: 3
+======================================================================
+Bond profile of chi: [1, 1, 1, 1, 1, 1, 1]
+Max bond dimension of chi: 1
+Fidelity chi with |000...0>: 0.9989093481114688
+Circuit depth: 14
+Circuit size: 32
+
+======================================================================
+number_of_layers: 4
+======================================================================
+Bond profile of chi: [1, 1, 1, 1, 1, 1, 1]
+Max bond dimension of chi: 1
+Fidelity chi with |000...0>: 0.9990144778740024
+Circuit depth: 16
+Circuit size: 40
+
+======================================================================
+number_of_layers: 5
+======================================================================
+Bond profile of chi: [1, 1, 1, 1, 1, 1, 1]
+Max bond dimension of chi: 1
+Fidelity chi with |000...0>: 0.9982489527690346
+Circuit depth: 18
+Circuit size: 48
+
+======================================================================
+number_of_layers: 6
+======================================================================
+Bond profile of chi: [1, 1, 1, 1, 1, 1, 1]
+Max bond dimension of chi: 1
+Fidelity chi with |000...0>: 0.9974923430591366
+Circuit depth: 20
+Circuit size: 56
+
+======================================================================
+number_of_layers: 7
+======================================================================
+Bond profile of chi: [1, 1, 1, 1, 1, 1, 1]
+Max bond dimension of chi: 1
+Fidelity chi with |000...0>: 0.9981547212618647
+Circuit depth: 22
+Circuit size: 64
+
+======================================================================
+number_of_layers: 8
+======================================================================
+Bond profile of chi: [1, 2, 2, 1, 2, 2, 2]
+Max bond dimension of chi: 2
+Fidelity chi with |000...0>: 0.993632583744982
+Circuit depth: 24
+Circuit size: 72
+
+======================================================================
+number_of_layers: 9
+======================================================================
+Bond profile of chi: [1, 2, 3, 2, 2, 2, 1]
+Max bond dimension of chi: 3
+Fidelity chi with |000...0>: 0.9823742912696299
+Circuit depth: 26
+Circuit size: 80
+
+======================================================================
+number_of_layers: 10
+======================================================================
+Bond profile of chi: [1, 2, 4, 4, 4, 3, 2]
+Max bond dimension of chi: 4
+Fidelity chi with |000...0>: 0.9881817627379552
+Circuit depth: 28
+Circuit size: 88
+
+Saved CSV: mps_dagger_chi_quimb_results_10layers/chi_layer_bond_fidelity_results.csv
+Saved: mps_dagger_chi_quimb_results_10layers/chi_max_bond_vs_layers_8_qubits.png
+Saved: mps_dagger_chi_quimb_results_10layers/chi_fidelity_zero_vs_layers_8_qubits.png
+Saved: mps_dagger_chi_quimb_results_10layers/chi_statevector_amplitude_layer_0_8_qubits.png
+Saved: mps_dagger_chi_quimb_results_10layers/chi_statevector_amplitude_layer_1_8_qubits.png
+Saved: mps_dagger_chi_quimb_results_10layers/chi_statevector_amplitude_layer_2_8_qubits.png
+Saved: mps_dagger_chi_quimb_results_10layers/chi_statevector_amplitude_layer_3_8_qubits.png
+Saved: mps_dagger_chi_quimb_results_10layers/chi_statevector_amplitude_layer_4_8_qubits.png
+Saved: mps_dagger_chi_quimb_results_10layers/chi_statevector_amplitude_layer_5_8_qubits.png
+Saved: mps_dagger_chi_quimb_results_10layers/chi_statevector_amplitude_layer_6_8_qubits.png
+Saved: mps_dagger_chi_quimb_results_10layers/chi_statevector_amplitude_layer_7_8_qubits.png
+
+Done.
+All plots saved in: /home/ri52yof/QCproject2/mps_dagger_chi_quimb_results_10layers
+CSV saved as: mps_dagger_chi_quimb_results_10layers/chi_layer_bond_fidelity_results.csv

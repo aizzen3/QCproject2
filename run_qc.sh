@@ -2,7 +2,7 @@
 #SBATCH -p fat                # high-RAM nodes
 #SBATCH --job-name=qc_run
 #SBATCH --output=qc_%j.log    # log file (%j = job id)
-#SBATCH --time=1-00:00:00       # max runtime
+#SBATCH --time=08:00:00       # max runtime
 #SBATCH --mem=512G            # request RAM
 #SBATCH --cpus-per-task=8     # number of CPU cores
 
@@ -18,4 +18,5 @@ export MKL_NUM_THREADS=$SLURM_CPUS_PER_TASK
 echo "Running on $(hostname)"
 echo "CPUs: $SLURM_CPUS_PER_TASK  RAM: $SLURM_MEM_PER_NODE"
 
-python gaussian.py
+python sin_signal_coeff.py
+python shcmidt_coeff.py

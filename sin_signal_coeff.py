@@ -606,16 +606,18 @@ for cut in cuts_to_plot:
     # Plot
     # ----------------------------------------------
 
+    # ----------------------------------------------
+    # Plot
+    # ----------------------------------------------
+
     plt.figure(figsize=(8, 5))
 
     for j in range(max_rank):
 
         y_chi = chi_matrix[:, j]
-        y_target = np.full_like(layers, s_target[j], dtype=float)
 
         # avoid zero issue on log scale
         y_chi_plot = np.maximum(y_chi, plot_floor)
-        y_target_plot = np.maximum(y_target, plot_floor)
 
         plt.plot(
             layers,
@@ -623,14 +625,6 @@ for cut in cuts_to_plot:
             marker="o",
             linewidth=1,
             label=f"chi s{j+1}",
-        )
-
-        plt.plot(
-            layers,
-            y_target_plot,
-            linestyle="--",
-            linewidth=1,
-            label=f"target s{j+1}",
         )
 
     plt.yscale("log")

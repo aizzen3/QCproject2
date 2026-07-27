@@ -5,6 +5,7 @@ description = "Add your description here"
 readme = "README.md"
 requires-python = ">=3.13"
 dependencies = [
+    "adaptive-mps-initializer",
     "ipykernel>=6.29.5",
     "latexmk>=0.0.2",
     "matplotlib>=3.10.3",
@@ -18,3 +19,6 @@ dependencies = [
     "qutip>=5.2.0",
     "scikit-learn>=1.7.2",
 ]
+
+[tool.uv.sources]
+adaptive-mps-initializer = { git = "https://github.com/aizzen3/adaptive-mps-initializer.git" }
